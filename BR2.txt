@@ -1,0 +1,3 @@
+parent(Y,X) :- enfant(X,Y),
+grand_parent(X,Y) :- parent(X,Z),parent(Z,Y),
+grand_mere(X,Y) :- grand_parent(X,Y),femme(X)

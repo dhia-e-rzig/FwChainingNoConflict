@@ -1,0 +1,24 @@
+unifier(p(B,C,?x,?z,f(A,?z,B)),p(?y,?z,?y,C,?w)) == (?w/ #f( A, C, B))(?x/B)(?z/C)(?y/B)
+unifier(P(?x, f(g(?x)), a),P(b,? xy, ?z)) == (?z/a)(?xy/ #f(#g( b)))(?x/b)
+unifier(q(f(A,?x),?x),q(f(?z,f(?z,D)),?z)) == Unification impossible
+unifier(?x,g(?x)) == Unification impossible
+unifier(p(B,C,?x,?z,f(A,?z,B)),p(?y,?z,?y,C,?w)) == (?w/ #f( A, C, B))(?x/B)(?z/C)(?y/B)
+unifier(P(?x, f(g(?x)), a),P(b,? xy, ?z)) == (?z/a)(?xy/ #f(#g( b)))(?x/b)
+unifier(q(f(A,?x),?x),q(f(?z,f(?z,D)),?z)) == Unification impossible
+unifier(?x,g(?x)) == Unification impossible
+unifier(p(B,C,?x,?z,f(A,?z,B)),p(?y,?z,?y,C,?w)) == (?w/ #f( A, C, B))(?x/B)(?z/C)(?y/B)
+unifier(P(?x, f(g(?x)), a),P(b,? xy, ?z)) == (?z/a)(?xy/ #f(#g( b)))(?x/b)
+unifier(q(f(A,?x),?x),q(f(?z,f(?z,D)),?z)) == Unification impossible
+unifier(?x,g(?x)) == Unification impossible
+unifier(p(B,C,?x,?z,f(A,?z,B)),p(?y,?z,?y,C,?w)) == (?w/ #f( A, C, B))(?x/B)(?z/C)(?y/B)
+unifier(P(?x, f(g(?x)), a),P(b,? xy, ?z)) == (?z/a)(?xy/ #f(#g( b)))(?x/b)
+unifier(q(f(A,?x),?x),q(f(?z,f(?z,D)),?z)) == Unification impossible
+unifier(?x,g(?x)) == Unification impossible
+unifier(p(B,C,?x,?z,f(A,?z,B)),p(?y,?z,?y,C,?w)) == (?w/ #f( A, C, B))(?x/B)(?z/C)(?y/B)
+unifier(P(?x, f(g(?x)), a),P(b,? xy, ?z)) == (?z/a)(?xy/ #f(#g( b)))(?x/b)
+unifier(q(f(A,?x),?x),q(f(?z,f(?z,D)),?z)) == Unification impossible
+unifier(?x,g(?x)) == Unification impossible
+unifier(p(B,C,?x,?z,f(A,?z,B)),p(?y,?z,?y,C,?w)) == (?w/ #f( A, C, B))(?x/B)(?z/C)(?y/B)
+unifier(P(?x, f(g(?x)), a),P(b,? xy, ?z)) == (?z/a)(?xy/ #f(#g( b)))(?x/b)
+unifier(q(f(A,?x),?x),q(f(?z,f(?z,D)),?z)) == Unification impossible
+unifier(?x,g(?x)) == Unification impossible
